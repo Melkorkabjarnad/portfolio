@@ -59,3 +59,13 @@ h3{
     padding: 20px;
     border: 1px solid #31312F;
 }
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #FCC9F7;
+    background-color: #31312F;
+    text-align: center;
+    padding: 20px;
+}
