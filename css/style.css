@@ -18,13 +18,20 @@ p{
     color: #31312F;
     font-family: "Kodchasan", sans-serif;
     font-weight: 500;
-    font-style: normal; 
+    font-style: normal;
 }
 h1{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
+}
+h4{
+    color: #F5F5EF;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #31312F;
 }
 .firsthalf{
     color: #31312F;
