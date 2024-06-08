@@ -21,6 +21,10 @@ h1{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+.arrow1, .arrow2, .arrow3, .arrow4{
+    max-width: 10%;
+    max-height: 10%;
+}
 @media(min-width:800px){
 .grid_projectsupper{
     display: grid;
