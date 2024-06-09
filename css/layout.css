@@ -50,7 +50,11 @@ p{
     margin-left: 130px;
 }
 /*TEMA 2*/
-
+.design_tema3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 .slideshow_tema2 img{
     max-width: 50%;
     max-height: 80%;
@@ -82,7 +86,7 @@ p{
     border-radius: 2px;
 }
 /*TEMA 3*/
-.research_tema3{
+.grid_1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -95,8 +99,7 @@ max-height: 90%;
     max-width: 80%;
     max-height: 80%;
 }
-
-.slideshow_tema3 img{
+.slideshow_tema3 img{  
     max-width: 50%;
     max-height: 80%;
     margin: 10px;
@@ -119,11 +122,7 @@ max-height: 90%;
     position: relative;
     scroll-snap-type: x mandatory;
 }
-.design_tema3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
+
 .moodboard_tema3 img{
     max-width: 692px;
     max-height: 405px;
