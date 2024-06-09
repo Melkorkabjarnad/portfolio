@@ -1,8 +1,8 @@
 /*COLOURS AND FONTS*/
+
 body{
     background-color: #EFEFEF;
 }
-
 header{
     color: #31312F;
     font-family: "Kodchasan", sans-serif;
@@ -12,13 +12,18 @@ header{
 }
 a{
     color: #31312F;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     text-decoration: none;
+
 }
 p{
     color: #31312F;
     font-family: "Kodchasan", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 20px;
 }
 h1{
     font-family: "Bebas Neue", sans-serif;
@@ -75,4 +80,13 @@ h2{
 }
 .link_tema a{
     color: #F5F5EF;
+}
+h6{
+    color: #31312F;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px;
 }
