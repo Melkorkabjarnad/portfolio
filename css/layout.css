@@ -197,12 +197,18 @@ max-height: 536px;
     scroll-snap-type: x mandatory;
 }
 .ui_elements{
-    max-width: 1321px;
+    max-width: 940px;
     max-height: 422px;
 }
 .game_elements{
-    max-width: 1321px;
-    max-height: 784px;
+    max-width: 947px;
+    max-height: 500px;
+}
+.diagram_text{
+    margin: 110px;
+}
+.ideudvikling_text{
+    margin: 60px;
 }
 
 /*TEMA 5*/
