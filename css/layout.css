@@ -25,11 +25,10 @@ h1{
 
 /*FORSIDE, ABOUT OG PROJEKTS*/
 
-.grid_projectslower{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+.index_grid{
+     display: grid;
 }
+
 .arrow1, .arrow2, .arrow3, .arrow4{
     max-width: 10%;
     max-height: 10%;
@@ -38,12 +37,7 @@ h1{
     max-width: 80%;
     max-height: 80%;
 }
-.grid_aboutme{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-left: 27px;
-    margin-top: 30px;
-}
+
 .grid_aboutme img{
     max-width: 309px;
     max-height: 319px;
@@ -92,8 +86,9 @@ max-width: 100%;
 max-height: 90%;
 }
 .refashioned_tema3 img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 530px;
+    max-height: 523px;
+    margin-left: 80px;
 }
 .slideshow_tema3 img{  
     max-width: 50%;
@@ -127,18 +122,47 @@ max-height: 90%;
     max-height: 620px;
 }
 .mobileprototype_tema3 img, .desktopprototype_tema3 img{
-    max-width: 703px;
+    max-width: 650px;
     max-height: 398px;
+    margin-left: 25px;
+    
 }
 .frontpage_tema3 img{
     max-width: 672px;
     max-height: 493px;
+    margin-left: 80px;
 }
 .clickable_tema3 img{
     max-width: 529px;
-    max-height: 713px;
+    max-height: 526px;
+    margin-left: 180px;
 }
-
+.text1{
+    margin: 80px;
+}
+.text2{
+    margin: 85px;
+}
+.moodboard_text{
+    margin: 150px;
+}
+.styletile_text{
+    margin: 85px;
+}
+.wireframes_text{
+    margin: 200px;
+}
+.wireframes_tema3 img{
+    max-width: 672px;
+    max-height: 598px;
+    margin-left: 150px;
+}
+.testtext_tema3{
+    margin: 110px;
+}
+.testresult{
+    margin: 130px;
+}
 /*TEMA 4*/
 
 .diagram_tema4 img{
@@ -228,6 +252,17 @@ max-height: 536px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+.grid_projectslower{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.grid_aboutme{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 27px;
+    margin-top: 30px;
 }
 
 }

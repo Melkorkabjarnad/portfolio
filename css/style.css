@@ -24,7 +24,7 @@ p{
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 h1{
     font-family: "Bebas Neue", sans-serif;
@@ -58,6 +58,7 @@ h3{
 }
 .secondhalf2{
     color: #FCC9F7;
+    -webkit-text-stroke: 1px #31312F;
 }
 .web, .ux, .animation, .indhold{
     background-color: #D9D9D9;
