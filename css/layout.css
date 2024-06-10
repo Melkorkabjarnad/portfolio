@@ -27,7 +27,7 @@ h1{
 /*FORSIDE, ABOUT OG PROJEKTS*/
 
 .index_textgrid{
-    line-height: 0.7;
+    line-height: 0;
 }
 .arrow1, .arrow2, .arrow3, .arrow4{
     max-width: 10%;
