@@ -219,6 +219,10 @@ max-height: 536px;
     max-width: 623px;
     max-height: 324px;
 }
+.github_tema5 img{
+    max-width: 572px;
+    max-height: 428px;
+}
 @media(min-width:800px){
 .grid_projectsupper{
     display: grid;
