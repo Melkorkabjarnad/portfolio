@@ -1,6 +1,7 @@
 /*GENERAL*/
 *{
     margin: 5px;
+    margin-bottom: 10px;
     padding: 0;
     box-sizing: border-box;
     object-fit: contain;
@@ -76,14 +77,9 @@ h1{
 }
 
 /*TEMA 3*/
-.grid_1-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
 .research_imgtema3 img{
-max-width: 100%;
-max-height: 90%;
+    max-width: 100%;
+    max-height: 90%;
 }
 .refashioned_tema3 img{
     max-width: 530px;
@@ -216,26 +212,31 @@ max-height: 536px;
 .interview_tema5 img{
     max-width: 468px;
     max-height: 529px;
+    margin-left: 60px;
 }
 .klipning_tema5{
-    max-width: 1311px;
-    max-height: 697px;
+    max-width: 844px;
+    max-height: 507px;
+    margin-left: 23%;
 }
 .lottie_tema5{
     max-width: 796px;
     max-height: 287px;
+    margin-left: 23%;
 }
 .problems_tema5 img{
     max-width: 729px;
     max-height: 453px;
+    margin-right: 60px;
 }
 .interview_1{
-    max-width: 552px;
-    max-height: 594px;
+    max-width: 476px;
+    max-height: 474px;
+    margin-left: 180px;
 }
 .interview_2{
-    max-width: 746px;
-    max-height: 594px;
+    max-width: 673px;
+    max-height: 474px;
 }
 .trello_img img{
     max-width: 686px;
@@ -253,6 +254,23 @@ max-height: 536px;
     max-width: 572px;
     max-height: 428px;
 }
+.research_tema5{
+    margin: 100px;
+}
+.problemer_tema5{
+    margin: 70px;
+}
+.trello_text{
+    margin: 80px;
+}
+.inspiration_tema5{
+    margin: 100px;
+}
+.color_explaining{
+    margin: 100px;
+}
+
+
 @media(min-width:800px){
 .grid_projectsupper{
     display: grid;
@@ -270,5 +288,12 @@ max-height: 536px;
     margin-left: 27px;
     margin-top: 30px;
 }
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
 
 }
