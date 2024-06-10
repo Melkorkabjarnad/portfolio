@@ -26,10 +26,9 @@ h1{
 
 /*FORSIDE, ABOUT OG PROJEKTS*/
 
-.index_grid{
-     display: grid;
+.index_textgrid{
+    line-height: 0.7;
 }
-
 .arrow1, .arrow2, .arrow3, .arrow4{
     max-width: 10%;
     max-height: 10%;
@@ -43,7 +42,29 @@ h1{
     max-width: 309px;
     max-height: 319px;
 }
+.port{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    justify-items: center;
+}
+.folio{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+.foliotext{
+    justify-items: center;
+}
+.MMD{
+    display: grid;
 
+}
+.upperphoto img{
+    object-fit: cover;
+    height: 100%;
+}
+.photosofme img{
+    object-fit: cover;
+}
 /*TEMA 2*/
 .slideshow_tema2 img{
     max-width: 50%;

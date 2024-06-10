@@ -94,3 +94,26 @@ h6{
     margin: 20px;
     padding: 10px;
 }
+.port h5{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    color: #FCC9F7;
+}
+.folio h5{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 120px;
+  color: #31312F;
+}
+.MMD h5{
+    color: #31312F;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;     
+}
