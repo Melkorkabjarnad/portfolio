@@ -65,6 +65,9 @@ h1{
 .photosofme img{
     object-fit: cover;
 }
+.p_element{
+    text-align: center;
+}
 /*TEMA 2*/
 .slideshow_tema2 img{
     max-width: 50%;

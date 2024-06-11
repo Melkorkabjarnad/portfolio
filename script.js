@@ -1,17 +1,16 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const links = document.querySelectorAll(".arrow3");
+const burger = document.querySelector(".burger");
+const nav = document.querySelector("nav");
+const menu = document.querySelector(".menu");
+const links = document.querySelectorAll(".menu li a");
 
-    links.forEach(link => {
-        link.addEventListener("click", function(event) {
-            event.preventDefault();
-            const targetUrl = this.href;
+burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+    nav.classList.toggle("active");
+});
 
-            document.querySelector(".web img").classList.add("slide-out");
-
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 500);
-
-        });
+links.forEach((link)=> {
+    link.addEventListener("click", () => {
+        burger.classList.remove("active");
+        nav.classList.remove("active");
     });
 });

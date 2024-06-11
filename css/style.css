@@ -74,9 +74,6 @@ h3{
 .web, .ux, .animation, .indhold img{
     transition: transform 0.5s ease;
 }
-.slide-out{
-    transform: translateX(-100%);
-}
 h2{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
