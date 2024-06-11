@@ -62,8 +62,10 @@ h1{
     object-fit: cover;
     height: 100%;
 }
-.photosofme img{
+.photosofme {
+    display: flex;
     object-fit: cover;
+    justify-content: space-around;
 }
 .p_element{
     text-align: center;
@@ -310,6 +312,9 @@ max-height: 536px;
 }
 .color_explaining{
     margin: 100px;
+}
+.githubtext_tema5{
+    margin: 60px;
 }
 
 
