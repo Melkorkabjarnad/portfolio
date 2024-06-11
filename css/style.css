@@ -67,6 +67,13 @@ h3{
     margin: 10px;
     padding: 20px;
     border: 1px solid #31312F;
+
+}
+.web, .ux, .animation, .indhold img{
+    transition: transform 0.5s ease;
+}
+.slide-out{
+    transform: translateX(-100%);
 }
 h2{
     font-family: "Bebas Neue", sans-serif;
