@@ -99,6 +99,9 @@ h1{
     align-items: center;
     border-radius: 2px;
 }
+.link_tema:hover{
+ background-color: #FCC9F7;
+}
 
 /*TEMA 3*/
 .research_imgtema3 img{
