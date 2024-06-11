@@ -23,6 +23,18 @@ nav ul li a{
 h1{
     text-align: center;
 }
+.background_container{
+    position: relative;
+    background-image: url(../img/melkorka/forside5.png);
+    background-size: cover;
+    background-position: center;
+    height: 592px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
 
 /*FORSIDE, ABOUT OG PROJEKTS*/
 
@@ -317,7 +329,6 @@ max-height: 536px;
     margin: 60px;
 }
 
-
 @media(min-width:800px){
 .grid_projectsupper{
     display: grid;
@@ -336,6 +347,4 @@ max-height: 536px;
     gap: 20px;
     margin: 20px;
 }
-
-
-}
+} 
