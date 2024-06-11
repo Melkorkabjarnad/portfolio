@@ -25,7 +25,7 @@ h1{
 }
 .background_container{
     position: relative;
-    background-image: url(../img/melkorka/forside5.png);
+    background-image: url(../img/melkorka/backgroundfinished.png);
     background-size: cover;
     background-position: center;
     height: 592px;
@@ -35,6 +35,30 @@ h1{
     object-fit: cover;
 }
 
+
+.hreyfimyndir{
+    width: 89rem;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.myndirh{
+    display: flex;
+    animation: markee-animation 3s linear infinite;
+}
+.myndirh{
+    width: 336px;
+    flex-shrink: 0;
+}
+@keyframes markee-animation{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
 
 /*FORSIDE, ABOUT OG PROJEKTS*/
 
@@ -165,6 +189,7 @@ h1{
 .styletile_tema3 img{
     max-width: 653px;
     max-height: 620px;
+    padding-right: 50px;
 }
 .mobileprototype_tema3 img, .desktopprototype_tema3 img{
     max-width: 650px;
@@ -173,13 +198,13 @@ h1{
     
 }
 .frontpage_tema3 img{
-    max-width: 672px;
+    max-width: 600px;
     max-height: 493px;
     margin-left: 80px;
 }
 .clickable_tema3 img{
-    max-width: 529px;
-    max-height: 526px;
+    max-width: 500px;
+    max-height: 500px;
     margin-left: 180px;
 }
 .text1{
@@ -192,7 +217,7 @@ h1{
     margin: 150px;
 }
 .styletile_text{
-    margin: 85px;
+    margin: 55px;
 }
 .wireframes_text{
     margin: 200px;
@@ -203,10 +228,10 @@ h1{
     margin-left: 150px;
 }
 .testtext_tema3{
-    margin: 110px;
+    margin: 85px;
 }
 .testresult{
-    margin: 130px;
+    margin: 80px;
 }
 /*TEMA 4*/
 
@@ -258,9 +283,13 @@ max-height: 536px;
 .javascript_tema4 img{
     max-width: 576px;
     max-height: 467px;
+    margin-left: 90px;
 }
 .javascript_text{
     margin: 70px;
+}
+.spilelementtext_tema4{
+    margin: 120px;
 }
 
 /*TEMA 5*/
@@ -311,10 +340,10 @@ max-height: 536px;
     max-height: 428px;
 }
 .research_tema5{
-    margin: 100px;
+    margin: 65px;
 }
 .problemer_tema5{
-    margin: 70px;
+    margin: 25px;
 }
 .trello_text{
     margin: 80px;
@@ -328,6 +357,7 @@ max-height: 536px;
 .githubtext_tema5{
     margin: 60px;
 }
+
 
 @media(min-width:800px){
 .grid_projectsupper{
