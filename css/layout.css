@@ -69,15 +69,6 @@ h1{
     max-width: 10%;
     max-height: 10%;
 }
-.aboutme, .aboutme2, .aboutme3{
-    max-width: 80%;
-    max-height: 80%;
-}
-
-.grid_aboutme img{
-    max-width: 309px;
-    max-height: 319px;
-} 
 .port{
     display: grid;
     grid-template-columns: 10fr 1fr;
@@ -98,20 +89,11 @@ h1{
     object-fit: cover;
     height: 100%;
 }
-.photosofme {
-    display: flex;
-    object-fit: cover;
-    justify-content: space-around;
-}
+
 .p_element{
     text-align: center;
 }
-.grid_aboutme{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-left: 27px;
-    margin-top: 30px;
-} 
+
 
 
 /*TEMA 2*/
